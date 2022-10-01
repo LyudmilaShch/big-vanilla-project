@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {splitIntoWorlds} from "./01-hello-tests/01";
 import {sum} from "./03/03";
+import {User} from "./05/06Callbacks";
+
 
 /*const sentense ="Hello my friends";
 const result = splitIntoWorlds(sentense)
@@ -19,9 +21,11 @@ const root = ReactDOM.createRoot(
 );
 root.render(
     <React.StrictMode>
-        <App/>
+        <User/>
     </React.StrictMode>
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
